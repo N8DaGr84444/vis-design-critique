@@ -31,8 +31,8 @@ header {
 .grid-container {
     display: grid;
     grid-template-columns: 35% 65%;
-    grid-template-rows: 50px 275px 50px 150px 50px 350px;
-    
+    /* grid-template-rows: 50px 275px 50px 150px 50px 350px; */
+    grid-template-rows: 50px auto 50px auto 50px auto;    
 }
 
 .grid-container > div {
