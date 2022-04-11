@@ -17,21 +17,71 @@
           </div>
         </header>
         <br>
-        <h2>Purpose</h2>
-        <p>This visualization was created to help visualize the rapid spread and record breaking case rates of the omicron wave, and it's progression across the country. 
-            When looking at a graph of overall cases in the US, it appears that omicron was declining just as fast as it spread. However, by looking at each state, this is not
-            always the case. Some states still have an increasing amount of cases. This visualization allows for state-by-state comparisons and a more detailed look into the trends
-            of omicron. It also compares the trends and current rates of omnicron to other variants of coronavirus. 
-        </p>
-        <p>Due to the national interest in coronavirus, this visualization is for everyone from medical professionals to a curious mother. It helps people identify trends that could
-            be challenging to notice just by the raw data, and it also allows for a deeper look into the data, as opposed to just viewing the trends of the United States as a whole.
-            Users can find their home state on the map and learn what the status of omicron there, and how many cases there are compared to neighboring states and the country as a whole.
-            They can also compare the trend of their region to other regions in the country. The visualization also provides a chart of upward trending states as well as a chart of downward
-            trending states, so a user can still determine the condition of their state without having to find it on a map. 
-        </p>
-        <h2>Data</h2>
-        <p>This data is </p>
-        <h2>Design Choices</h2>
+        <!-- <div class="group"> -->
+        <div class="grid-container">
+            <div class="image">
+                <img style="height: 110%;" src="img/us-states-with-upward-trends.png" alt="upward trends img">
+            </div>
+            <div>
+                <h2>Purpose</h2>
+            </div>
+            <div>
+                <p>This visualization was created to help visualize the rapid spread and record breaking case rates of the omicron wave, and it's progression across the country. 
+                    When looking at a graph of overall cases in the US, it appears that omicron was declining just as fast as it spread. However, by looking at each state, this is not
+                    always the case. Some states still have an increasing amount of cases. This visualization allows for state-by-state comparisons and a more detailed look into the trends
+                    of omicron. It also compares the trends and current rates of omnicron to other variants of coronavirus. 
+                </p>
+                <p>Due to the national interest in coronavirus, this visualization is for everyone from medical professionals to a
+                    curious mother. It helps people identify trends that could
+                    be challenging to notice just by the raw data, and it also allows for a deeper look into the data, as opposed to
+                    just viewing the trends of the United States as a whole.
+                    Users can find their home state on the map and learn what the status of omicron there, and how many cases there are
+                    compared to neighboring states and the country as a whole.
+                    They can also compare the trend of their region to other regions in the country. The visualization also provides a
+                    chart of upward trending states (pictured left) and a chart of downward
+                    trending states, so a user can still determine the condition of their state without having to find it on a map.
+                </p>
+            </div>
+            <div class="image">
+                <img style="width: 100%;" src="img/data-source.png" alt="data source img">
+            </div>
+            <div>
+                <h2>Data</h2>
+            </div>
+            <div>
+                <p>This data comes from the Centers for Disease Control and Prevention's daily rates. It has the rate of each state, and
+                    the Washington Post calculated region data by aggregating
+                    the state data. County data is also used in the map visualization, which also comes from the Centers for Disease
+                    Control and Prevention. Each chart has a link to the CDC website page containing the data. On this page, the CDC describes the data
+                    as well as the accuracy and where it came from. On the bottom of the Washington Post article, they include a description of the data 
+                    being used as well (pictured left).
+                </p>
+            </div>
+            <div class="image">
+                <video controls style="height: 110%;"><source src="img/map-vid.mp4" alt="map vid" type="video/mp4"></video>
+            </div>
+            <div>
+                <h2>Design Choices</h2>
+            </div>
+            <div>
+                <p>The page is very cleanly laid out, with text mixed in with charts. As the user scrolls through the page, they read
+                    a short paragraph giving information, followed by a visual of that information. This is very effective and easy to understand.
+                    All of the charts are very clear and not too busy. Everything is well spaced and easily readable. Most charts contain tooltips that
+                    appear when the mouse is overtop of the data. The other data points or lines also fade away when this occurs, isolating the line
+                    the user is trying to focus on. This is a very nice feature. The most unique visual is the
+                    animated map that moves through time as the user scrolls down the page (video on the left). This is an interesting way of scrubbing
+                    through the timeline. While it is moving, the timeline "fills up" to show the progression through time. This is very well done, and the
+                    timeline also changes heights to show the number of cases. It is very easy to understand. Text boxes also move up the
+                    screen describing current events, and the data on the map updates. While this is very effective for giving a broad overview of the
+                    trends through time, it is difficult to really analyze what is happening. There is no way of knowing the actual number of cases in an area,
+                    only the level of cases compared to other areas (gradient from high to low). The states on the left of the map also get covered by
+                    the textboxes as they move. The textboxes are partially transparent, but not enough to clearly see the map behind it. In addition, if 
+                    the user does not want to go through the entire timeline, there is no way to skip the animation to just scroll to the top or bottom of
+                    the page. This can become a major inconvenience. An addition of tooltips showing the actual number of cases as well as a skip animation
+                    button would help make to improve this visual. 
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

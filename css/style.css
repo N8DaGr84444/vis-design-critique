@@ -29,3 +29,19 @@ header {
     min-height: 480px;
     min-width: 640px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 50px 250px 50px 200px 50px 250px;
+    
+}
+
+.grid-container > div {
+    padding: 20px;
+    text-align: left;
+}
+
+.image {
+    grid-row: span 2;
+}
