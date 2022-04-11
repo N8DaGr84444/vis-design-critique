@@ -1,11 +1,16 @@
 body {
-    /*background: linear-gradient(to bottom right, darkgreen, lightgreen);*/
-    background-color:darkolivegreen;
     color: black;
     font: normal 13px/1.625 'Helvetica Neue', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 50px;
     text-align: center;
+    background: radial-gradient(circle farthest-side at 0% 50%, gray 23.5%, rgba(240, 166, 17, 0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%, darkblue 24%, rgba(240, 166, 17, 0) 0)19px 30px,
+    linear-gradient(gray 14%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 85%, gray 0)0 0,
+    linear-gradient(150deg, gray 24%, darkblue 0, darkblue 26%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 74%, darkblue 0, darkblue 76%, gray 0)0 0,
+    linear-gradient(30deg, gray 24%, darkblue 0, darkblue 26%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 74%, darkblue 0, darkblue 76%, gray 0)0 0,
+    linear-gradient(90deg, darkblue 2%, gray 0, gray 98%, darkblue 0%)0 0 gray;
+    background-size: 40px 60px;
 }
 
 header {
